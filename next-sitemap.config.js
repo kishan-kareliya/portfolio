@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "http://localhost:3000", // Use your actual domain once live
+  siteUrl: "https://kishankareliya.vercel.app", // Use your actual domain once live
   generateRobotsTxt: true,
   generateIndexSitemap: false,
 };

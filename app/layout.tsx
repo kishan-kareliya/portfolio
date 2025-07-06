@@ -14,11 +14,11 @@ export const metadata = {
   openGraph: {
     title: "Kishan Kareliya Portfolio",
     description: "Explore Kishan’s MERN stack projects and contact info.",
-    url: "https://kishankareliya.dev",
+    url: "https://kishankareliya.vercel.app",
     siteName: "Kishan Portfolio",
     images: [
       {
-        url: "https://kishankareliya.dev/preview.png", // Create this preview image
+        url: "https://kishankareliya.vercel.app/preview.png",
         width: 1200,
         height: 630,
         alt: "Kishan Portfolio Preview",
@@ -30,7 +30,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Kishan Kareliya Portfolio",
     creator: "@kishann__12",
-    images: ["https://kishankareliya.dev/preview.png"],
+    images: ["https://kishankareliya.vercel.app/preview.png"],
   },
 };
 
@@ -51,7 +51,7 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Kishan Kareliya",
-            url: "https://kishankareliya.dev",
+            url: "https://kishankareliya.vercel.app",
             sameAs: [
               "https://github.com/kishan-kareliya",
               "https://linkedin.com/in/kishan-kareliya",
